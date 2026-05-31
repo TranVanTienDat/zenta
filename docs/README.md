@@ -50,7 +50,7 @@ Sau khi đã kích hoạt virtualenv và cài dependencies, bạn có thể ch�
 
 - Chạy helper để transcribe một file WAV 16 kHz mono int16:
 
-  `python3 -m client.stt.test_helpers path/to/your_16k_mono.wav`
+  `python -m client.stt.test_helpers docs/assets/test.wav`
 
 - Khởi chạy client (phiên local, dùng Python từ virtualenv):
 
